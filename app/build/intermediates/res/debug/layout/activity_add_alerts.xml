@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/add_alerts"
+    android:background="@drawable/university_background"
+    android:orientation="vertical"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/alert_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAlignment="gravity"
+            android:hint="Title"
+            android:maxLines="2"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            />
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_below="@+id/alert_title"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_height="wrap_content">
+
+
+
+        <ImageButton
+            android:id="@+id/open_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_action_today"
+            android:layout_alignTop="@+id/alert_switch"
+            android:layout_toLeftOf="@+id/open_time"
+            android:layout_toStartOf="@+id/open_time" />
+
+        <ImageButton
+            android:id="@+id/open_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_image_timer"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/date_time"
+            android:layout_alignBottom="@+id/open_date"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:layout_toStartOf="@+id/open_date"
+            android:layout_alignTop="@+id/alert_switch"
+            android:layout_toLeftOf="@+id/open_date" />
+</RelativeLayout>
+        <Switch
+            android:id="@+id/alert_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:checked="true"
+            android:text="Turn"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/open_date"
+            android:layout_toStartOf="@+id/open_date" />
+
+        <Button
+            android:id="@+id/alert_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Save"
+            android:textAllCaps="false"
+
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</ScrollView><!-- From: file:/C:/Users/hosam%20azzam/AndroidStudioProjects/Blog/app/src/main/res/layout/activity_add_alerts.xml -->

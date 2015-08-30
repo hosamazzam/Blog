@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:background="@drawable/notify"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:text="alerm"
+        android:id="@+id/alerm_title"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Ok"
+        android:id="@+id/ok"
+        android:background="@drawable/button_box"
+        android:textAllCaps="false"/>
+
+</LinearLayout><!-- From: file:/C:/Users/hosam%20azzam/AndroidStudioProjects/Blog/app/src/main/res/layout/alerm.xml -->

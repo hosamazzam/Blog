@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\tech 1\AndroidStudioProjects\Blog\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\tech 1\AndroidStudioProjects\Blog\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-9381ed3b4f26812dbd38eb4fac705b0f89275e37.jar" />
+    </item>
+    <item
+        jar="C:\Users\tech 1\AndroidStudioProjects\Blog\app\libs\mail.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\Users\tech 1\AndroidStudioProjects\Blog\app\build\intermediates\pre-dexed\debug\mail-b4d1d0f8af048711a2536ea027c1bc924fc91606.jar" />
+    </item>
+    <item
+        jar="C:\Users\tech 1\AndroidStudioProjects\Blog\app\libs\activation.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\Users\tech 1\AndroidStudioProjects\Blog\app\build\intermediates\pre-dexed\debug\activation-8b47553e2cdd4eb569847c2c2d138bf3fcf99c6a.jar" />
+    </item>
+    <item
+        jar="C:\Users\tech 1\AndroidStudioProjects\Blog\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\tech 1\AndroidStudioProjects\Blog\app\build\intermediates\pre-dexed\debug\classes-75cc939fd857a133c6f0ba8cb7ec5e45490ff819.jar" />
+    </item>
+    <item
+        jar="E:\Sources\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\tech 1\AndroidStudioProjects\Blog\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-e224ee282064a1ce63d85d083b13a7d0e8ba7d42.jar" />
+    </item>
+    <item
+        jar="C:\Users\tech 1\AndroidStudioProjects\Blog\android-async-http-1.4.4\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="C:\Users\tech 1\AndroidStudioProjects\Blog\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4-3579d09587dc14cd3a953b47d2514811ced4a128.jar" />
+    </item>
+    <item
+        jar="C:\Users\tech 1\AndroidStudioProjects\Blog\app\libs\additionnal.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\Users\tech 1\AndroidStudioProjects\Blog\app\build\intermediates\pre-dexed\debug\additionnal-e4014f66d8e307df13976c1db9888f3703416708.jar" />
+    </item>
+
+</items>

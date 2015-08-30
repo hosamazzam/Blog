@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome !"
+        android:layout_marginTop="86dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your ID: 123456"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:id="@+id/User_id"
+        android:textSize="17sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+<ImageView
+    android:layout_width="130dp"
+    android:layout_height="130dp"
+    android:background="@drawable/photo_header"
+    android:id="@+id/FacePic"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="40dp" />
+
+
+    <Button
+        android:id="@+id/upload_image"
+        android:layout_width="130dp"
+        android:layout_height="25dp"
+        android:background="@drawable/yellow"
+        android:text="Upload Photo"
+        android:gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:layout_below="@+id/FacePic"
+        android:layout_alignRight="@+id/FacePic"
+        android:layout_alignEnd="@+id/FacePic"
+        android:layout_alignLeft="@+id/FacePic"
+        android:layout_alignStart="@+id/FacePic"
+        android:textStyle="normal" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip >>"
+        android:textAllCaps="false"
+        android:id="@+id/skip_button"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/C:/Users/hosam%20azzam/AndroidStudioProjects/Blog/app/src/main/res/layout/activity_upload.xml -->

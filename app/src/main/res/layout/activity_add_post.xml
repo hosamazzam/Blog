@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:text="New Note"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/Post_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout6"
+        android:layout_margin="20dp"
+        android:background="@drawable/photo_header" />
+
+
+    <Button
+        android:id="@+id/upload_image"
+        android:layout_width="130dp"
+        android:layout_height="25dp"
+        android:layout_alignEnd="@+id/Post_image"
+        android:layout_alignLeft="@+id/Post_image"
+        android:layout_alignRight="@+id/Post_image"
+        android:layout_alignStart="@+id/Post_image"
+        android:layout_below="@+id/Post_image"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/yellow"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Upload Photo"
+        android:textAllCaps="false"
+        android:textStyle="normal" />
+
+
+    <EditText
+        android:id="@+id/post_contnet"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Post_image"
+        android:layout_marginRight="20dp"
+        android:layout_toEndOf="@+id/Post_image"
+        android:layout_toRightOf="@+id/Post_image"
+        android:hint="Write the note"
+        android:maxLines="9"
+        android:textColor="#ffffff"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/post_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/upload_image"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_corner_green"
+        android:text="Post"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_cart"
+        android:icon="@drawable/ic_action_content_add_circle_outline"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="add" />
+
+</menu> <!-- From: file:/C:/Users/hosam%20azzam/AndroidStudioProjects/Blog/app/src/main/res/menu/add.xml -->
